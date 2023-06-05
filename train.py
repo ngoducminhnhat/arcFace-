@@ -1,6 +1,6 @@
 from __future__ import print_function
 import os
-from data import dataset
+from data.dataset import Dataset
 import torch
 from torch.utils import data
 import torch.nn.functional as F
@@ -30,7 +30,7 @@ if __name__ == '__main__':
         visualizer = Visualizer()
     device = torch.device("cuda")
 
-    train_dataset = dataset(opt.train_root, opt.train_list, phase='train', input_shape=opt.input_shape)
+    train_dataset = Dataset(opt.train_root, opt.train_list, phase='train', input_shape=opt.input_shape)
     trainloader = data.DataLoader(train_dataset,
                                   batch_size=opt.train_batch_size,
                                   shuffle=True,
