@@ -1,17 +1,17 @@
 from __future__ import print_function
 import os
-from data import Datasets
+from data import dataset
 import torch
 from torch.utils import data
 import torch.nn.functional as F
 from models import *
 import torchvision
-from utils import Visualizer, view_model
+# from utils import Visualizer, view_model
 import torch
 import numpy as np
 import random
 import time
-from config import Config
+from config import config
 from torch.nn import DataParallel
 from torch.optim.lr_scheduler import StepLR
 from test import *
@@ -30,7 +30,7 @@ if __name__ == '__main__':
         visualizer = Visualizer()
     device = torch.device("cuda")
 
-    train_dataset = Dataset(opt.train_root, opt.train_list, phase='train', input_shape=opt.input_shape)
+    train_dataset = dataset(opt.train_root, opt.train_list, phase='train', input_shape=opt.input_shape)
     trainloader = data.DataLoader(train_dataset,
                                   batch_size=opt.train_batch_size,
                                   shuffle=True,
