@@ -3041,7 +3041,7 @@ Armand_Sargen/Armand_Sargen_0001.jpg Lisa_Gottsegen/Lisa_Gottsegen_0002.jpg 0
 Atom_Egoyan/Atom_Egoyan_0001.jpg Bill_Stapleton/Bill_Stapleton_0001.jpg 0
 Atom_Egoyan/Atom_Egoyan_0001.jpg Janis_Ruth_Coulter/Janis_Ruth_Coulter_0001.jpg 0
 Barbara_Brezigar/Barbara_Brezigar_0002.jpg Doris_Roberts/Doris_Roberts_0002.jpg 0
-Leticia_Dolera/Leticia_Dolera_0001.jpg 0
+
 Bart_Freundlich/Bart_Freundlich_0001.jpg Ernie_Grunfeld/Ernie_Grunfeld_0001.jpg 0
 Bart_Freundlich/Bart_Freundlich_0001.jpg Kirsten_Gilham/Kirsten_Gilham_0001.jpg 0
 Benjamin_Martinez/Benjamin_Martinez_0001.jpg Garry_McCoy/Garry_McCoy_0001.jpg 0
