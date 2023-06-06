@@ -12,14 +12,14 @@ class Config(object):
     finetune = False
 
     train_root = '/kaggle/input/arcfae/dataset/not_mask'
-    train_list = '/Datasets/webface/not_mask_8.txt'
+    train_list = './Datasets/webface/not_mask_8.txt'
     val_list = './Datasets/webface/not_mask_2.txt'
 
     test_root = '/data1/Datasets/anti-spoofing/test/data_align_256'
     test_list = 'test.txt'
 
     lfw_root = '/kaggle/input/arcfae/dataset/lfw-align-128'
-    lfw_test_list = '/Datasets/lfw/lfw_test_pair.txt'
+    lfw_test_list = './Datasets/lfw/lfw_test_pair.txt'
 
     checkpoints_path = 'checkpoints'
     load_model_path = 'models/resnet18.pth'
