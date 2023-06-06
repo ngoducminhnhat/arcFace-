@@ -931,7 +931,6 @@ Ashton_Kutcher/Ashton_Kutcher_0001.jpg Ashton_Kutcher/Ashton_Kutcher_0003.jpg 1
 Ashton_Kutcher/Ashton_Kutcher_0002.jpg Ashton_Kutcher/Ashton_Kutcher_0003.jpg 1
 Augusto_Roa_Bastos/Augusto_Roa_Bastos_0001.jpg Augusto_Roa_Bastos/Augusto_Roa_Bastos_0002.jpg 1
 Aung_San_Suu_Kyi/Aung_San_Suu_Kyi_0001.jpg Aung_San_Suu_Kyi/Aung_San_Suu_Kyi_0002.jpg 1
-Barry_Zito/Barry_Zito_0001.jpg Barry_Zito/Barry_Zito_0002.jpg 1
 Bill_Graham/Bill_Graham_0001.jpg Bill_Graham/Bill_Graham_0009.jpg 1
 Bill_Graham/Bill_Graham_0003.jpg Bill_Graham/Bill_Graham_0004.jpg 1
 Bill_Graham/Bill_Graham_0004.jpg Bill_Graham/Bill_Graham_0006.jpg 1
@@ -3942,8 +3941,7 @@ Asif_Hanif/Asif_Hanif_0001.jpg Robbie_Williams/Robbie_Williams_0001.jpg 0
 Asmaa_Assad/Asmaa_Assad_0001.jpg Barry_Hinson/Barry_Hinson_0001.jpg 0
 Aung_San_Suu_Kyi/Aung_San_Suu_Kyi_0001.jpg Charla_Moye/Charla_Moye_0001.jpg 0
 Azmi_Bishara/Azmi_Bishara_0001.jpg Sammy_Sosa/Sammy_Sosa_0002.jpg 0
-Barry_Hinson/Barry_Hinson_0001.jpg Nino_DAngelo/Nino_DAngelo_0001.jpg 0
-Barry_Zito/Barry_Zito_0002.jpg Chris_Gratton/Chris_Gratton_0001.jpg 0
+Barry_Hinson/Barry_Hinson_0001.jpg Nino_DAngelo/Nino_DAngelo_0001.jpg 0 Chris_Gratton/Chris_Gratton_0001.jpg 0
 Bill_Graham/Bill_Graham_0008.jpg Michelle_Hofland/Michelle_Hofland_0001.jpg 0
 Bill_Graham/Bill_Graham_0009.jpg Jacqueline_Marris/Jacqueline_Marris_0001.jpg 0
 Bill_Readdy/Bill_Readdy_0001.jpg Brendan_Gaughan/Brendan_Gaughan_0001.jpg 0
