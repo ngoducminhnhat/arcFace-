@@ -43,41 +43,41 @@ def load_image(img_path):
     return image
 
 
-# def get_featurs(model, test_list, batch_size=10):
-#     images = None
-#     features = None
-#     cnt = 0
-#     for i, img_path in enumerate(test_list):
-#         image = load_image(img_path)
-#         if image is None:
-#             print('read {} error'.format(img_path))
+def get_featurs(model, test_list, batch_size=10):
+    images = None
+    features = None
+    cnt = 0
+    for i, img_path in enumerate(test_list):
+        image = load_image(img_path)
+        if image is None:
+            print('read {} error'.format(img_path))
 
-#         if images is None:
-#             images = image
-#         else:
-#             images = np.concatenate((images, image), axis=0)
+        if images is None:
+            images = image
+        else:
+            images = np.concatenate((images, image), axis=0)
 
-#         if images.shape[0] % batch_size == 0 or i == len(test_list) - 1:
-#             cnt += 1
+        if images.shape[0] % batch_size == 0 or i == len(test_list) - 1:
+            cnt += 1
 
-#             data = torch.from_numpy(images)
-#             data = data.to(torch.device("cuda"))
-#             output = model(data)
-#             output = output.data.cpu().numpy()
+            data = torch.from_numpy(images)
+            data = data.to(torch.device("cuda"))
+            output = model(data)
+            output = output.data.cpu().numpy()
 
-#             fe_1 = output[::2]
-#             fe_2 = output[1::2]
-#             feature = np.hstack((fe_1, fe_2))
-#             # print(feature.shape)
+            fe_1 = output[::2]
+            fe_2 = output[1::2]
+            feature = np.hstack((fe_1, fe_2))
+            # print(feature.shape)
 
-#             if features is None:
-#                 features = feature
-#             else:
-#                 features = np.vstack((features, feature))
+            if features is None:
+                features = feature
+            else:
+                features = np.vstack((features, feature))
 
-#             images = None
+            images = None
 
-#     return features, cnt
+    return features, cnt
 
 
 def load_model(model, model_path):
